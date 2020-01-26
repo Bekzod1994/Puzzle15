@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.example.pazlle15.WinActivity">
+    tools:context="com.example.pazlle15.views.WinActivity">
     <TextView
         android:textStyle="bold"
         android:gravity="center"

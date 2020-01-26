@@ -12,7 +12,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.myapplication.R;
-import com.example.pazlle15.WinActivity;
 import com.example.pazlle15.contracts.Contract;
 import com.example.pazlle15.models.Cordinate;
 import com.example.pazlle15.models.Model;

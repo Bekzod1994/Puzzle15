@@ -1,4 +1,4 @@
-package com.example.pazlle15;
+package com.example.pazlle15.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 

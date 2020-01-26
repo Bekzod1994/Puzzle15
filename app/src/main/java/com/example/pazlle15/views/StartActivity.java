@@ -1,4 +1,4 @@
-package com.example.pazlle15;
+package com.example.pazlle15.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.myapplication.R;
-import com.example.pazlle15.views.MainActivity;
 
 public class StartActivity extends AppCompatActivity {
 
