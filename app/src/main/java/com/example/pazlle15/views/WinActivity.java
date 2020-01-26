@@ -3,6 +3,7 @@ package com.example.pazlle15.views;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -33,5 +34,6 @@ public class WinActivity extends AppCompatActivity {
     void restart() {
         setResult(3);
         finish();
+        Log.i("TAG", "test");
     }
 }
