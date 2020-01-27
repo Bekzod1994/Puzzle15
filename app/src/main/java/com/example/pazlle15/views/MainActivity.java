@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.RelativeLayout;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
         chronometer = new Chronometer(this);
         loadViews();
         presenter = new Presenter(this, model);
+        Log.d("TTT","salom");
     }
 
 
