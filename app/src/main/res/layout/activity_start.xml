@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.pazlle15.StartActivity">
+
+    <Button
+        android:id="@+id/play"
+       android:layout_margin="8sp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Play"
+        android:textColor="#FFF"
+        android:background="@drawable/bt_bakc"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/about"
+        android:layout_margin="8sp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="About"
+        android:textColor="#FFF"
+        android:background="@drawable/bt_bakc"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/exit"
+        android:layout_margin="8sp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Exit"
+        android:textColor="#FFF"
+        android:background="@drawable/bt_bakc"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

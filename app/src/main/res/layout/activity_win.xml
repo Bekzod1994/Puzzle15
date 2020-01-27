@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.pazlle15.WinActivity">
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:id="@+id/score"
+        android:text="You win!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You win!"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:id="@+id/massageWin"
+        android:text="You win!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/restartGame"
+        android:layout_margin="16sp"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:textColor="#FFF"
+        android:background="@drawable/bt_bakc"
+        android:textAllCaps="false"
+        android:text="Restart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/finishGame"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:textColor="#FFF"
+        android:background="@drawable/bt_bakc"
+        android:textAllCaps="false"
+        android:text="Finish"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
